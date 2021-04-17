@@ -1,0 +1,93 @@
+@charset "UTF-8";
+
+body {
+    margin: 0;
+    padding: 0;
+    color: #24292e;
+    font-size: 1rem;
+}
+header{
+  display:flex;
+  justify-content:space-between;
+  align-items: center;
+  margin:0 auto;
+  padding:0 4%;
+  height:60px;
+}
+header img{
+  width:120px;
+  height:40px;
+}
+header ul{
+  display:flex;
+  list-style: none;
+  margin-bottom:0;
+}
+header li{
+  margin-left: 30px;
+}
+#main-visual img{
+  width:100%;
+  object-fit: cover;
+  height:600px;
+  margin-bottom: 90px;
+}
+#main section{
+  padding:0 4%;
+  margin:0 auto;
+  text-align: center;
+  margin-bottom:100px;
+}
+#main h2{
+  border-bottom:solid 1px black;
+  margin-bottom: 65px;
+  display: inline-block;
+  text-align: center;
+}
+#about .content{
+  display:flex;
+  align-items: center;
+  text-align:center;
+  justify-content: center;
+}
+#about img{
+  border-radius: 50%;
+  height:100px;
+  width:100px;
+  margin-right: 15px;
+}
+@media (max-width:500px){
+  .content{
+    flex-direction: column;
+  }
+}
+#bicycle{
+  text-align: center;
+}
+#bicycle ul{
+  display:flex;
+  justify-content: space-between;
+  padding:0 4%;
+  margin:0 auto;
+}
+#bicycle li{
+  list-style: none;
+  width:31%;
+  font-size: 0.75rem;
+}
+#bicycle img{
+  width:100%;
+}
+@media (max-width:500px) {
+  #bicycle ul{
+    flex-direction: column;
+  }
+  #bicycle li{
+    width:100%;
+  }
+}
+
+
+footer{
+  text-align:center;
+}
